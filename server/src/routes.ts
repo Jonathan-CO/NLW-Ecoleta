@@ -5,6 +5,7 @@ import ItemsController from './controllers/ItemsController';
 const routes = express.Router()
 const pointsController = new PointsController();
 const itemsController = new ItemsController();
+
 routes.get('/', (req, res)=>{
   return res.json({message:'Hello World'})
 });
