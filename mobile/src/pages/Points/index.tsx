@@ -7,7 +7,7 @@ import { SvgUri } from 'react-native-svg';
 import MapView, { Marker } from 'react-native-maps';
 import * as Location from 'expo-location'
 import api from '../../services/api';
-import { AppLoading } from 'expo';
+// import { AppLoading } from 'expo';
 
 interface Item {
   id: number;
@@ -74,7 +74,6 @@ const Points = () => {
       }
     }).then(response => {
       setPoints(response.data);
-      console.log(response.data)
     })
   }, [selectedItems])
 
