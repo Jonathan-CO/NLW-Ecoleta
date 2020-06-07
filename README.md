@@ -11,6 +11,7 @@ This app features all the latest tools and practices in mobile development!
 
 - ⚛️ **React Js** — A JavaScript library for building user interfaces
 - ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
+- 💹 **Node Js** — A server-side JavaScript runtime environment
 - 💹 **SQLite** — A relational database
 
 ### Services
